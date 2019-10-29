@@ -144,7 +144,7 @@ class Members extends CI_Controller {
             // Form field validation rules
             $this->form_validation->set_rules('user', 'User', 'required');
             $this->form_validation->set_rules('product', 'email', 'required');
-            $this->form_validation->set_rules('price', 'gender', 'required');
+            $this->form_validation->set_rules('price', 'price', 'required');
             $this->form_validation->set_rules('quantity', 'country', 'required');
             
             // Prepare member data
